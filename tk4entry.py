@@ -4,7 +4,7 @@ root = Tk()
 
 e = Entry(root, width=30, font=('Helvetica', 16))
 e.pack() 
-# e.get # used in fn
+e.get # used in fn
 e.insert(0, "What is Your Name: ")
 
 def myClick():
