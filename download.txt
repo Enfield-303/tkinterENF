@@ -1,0 +1,15 @@
+Python
+https://www.python.org/downloads/
+
+Visual Studio Code
+https://code.visualstudio.com/download
+
+Visual Studio Code - extensions
+Python
+Atom one dark (optional)
+
+XAMPP for Windows
+https://www.apachefriends.org/download.html
+
+GitHub
+https://desktop.github.com/
