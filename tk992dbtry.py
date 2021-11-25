@@ -10,7 +10,7 @@ root.geometry("400x600")
 # Databases
 
 # Create a database or connect to one
-conn = sqlite3.connect('C:/Users/ITC-LAB-T/Desktop/AP/address_book.db')
+conn = sqlite3.connect('address_book.db')
 
 # Create cursor
 c = conn.cursor()
