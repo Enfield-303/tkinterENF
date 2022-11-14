@@ -8,3 +8,5 @@ pip install requests
 
 pip install pysqlite3 
 
+
+python.exe -m pip install --upgrade pip
