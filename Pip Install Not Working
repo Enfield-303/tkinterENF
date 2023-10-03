@@ -14,7 +14,7 @@ In the Run box, type “sysdm.cpl” and press Enter to open the System Properti
 Go to the Advanced tab and click Environment Variables.
 Double-click the PATH variable under System Variables.
 Click New, and add the pip path. Then, select OK.
-
+(Path is under python39/scripts or users or ..)
 
 2
 Way 2. Install Pip
