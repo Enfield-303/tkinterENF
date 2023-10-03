@@ -12,4 +12,5 @@ XAMPP for Windows
 https://www.apachefriends.org/download.html
 
 GitHub
-https://desktop.github.com/
+https://desktop.github.com
+
