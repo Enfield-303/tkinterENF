@@ -1,0 +1,25 @@
+1
+Way 1. Add Pip to PATH
+If you didn’t change the installation location, the default pip path should be C:UsersUsernameAppDataLocalProgramsPythonPython310Scripts. Now, you should add this path to the environment variables. Here is the guide:
+
+Press “Windows key + R” to open the Run dialog box.
+In the Run box, type “sysdm.cpl” and press Enter to open the System Properties window.
+Go to the Advanced tab and click Environment Variables.
+Double-click the PATH variable under System Variables.
+Click New, and add the pip path. Then, select OK.
+
+2
+Way 2. Install Pip
+If pip is not installed, you can install it by executing the following commands:
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py (If your Python is 3.x version, please execute python3 get-pip.py)
+The first command will download the installation script and the second command will run the script. Now, you can find the pip.exe under the Python scripts directory.
+
+3
+Way 3. Update Pip
+If the pip version is lower than the Python version, you may need to upgrade pip using the command “pip install -U pip”. If this command doesn’t work, you can try this command “easy_install –upgrade pip”.
+
+4
+Way 4. Reinstall Python and Pip
+If all the above ways don’t work, I recommend you reinstall Python and pip. You need to uninstall Python first and then you can install the latest Python. This time, please remember to install pip and add it to the path.
