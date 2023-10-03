@@ -1,3 +1,10 @@
+***********************************************************
+Open Command Prompt:
+Execute the command “python -v”. It will tell you the python version.
+Execute the command “pip –version”. It will tell you the pip version. If you encounter errors in this step, it means that pip is not installed or not added to the PATH environment.
+Then, you need to see if their versions are the same. If not, you need to update pip or reinstall it.
+************************************************************
+
 1
 Way 1. Add Pip to PATH
 If you didn’t change the installation location, the default pip path should be C:UsersUsernameAppDataLocalProgramsPythonPython310Scripts. Now, you should add this path to the environment variables. Here is the guide:
@@ -7,6 +14,7 @@ In the Run box, type “sysdm.cpl” and press Enter to open the System Properti
 Go to the Advanced tab and click Environment Variables.
 Double-click the PATH variable under System Variables.
 Click New, and add the pip path. Then, select OK.
+
 
 2
 Way 2. Install Pip
